@@ -1,0 +1,380 @@
+/* stylelint-disable selector-list-comma-newline-after */
+
+body {
+font-family: "Roboto", sans-serif;
+font-size: 17px;
+background-color: #fdfdfd;
+}
+.shadow {
+box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+}
+.btn-danger {
+color: #fff;
+background-color: #f00000;
+border-color: #dc281e;
+}
+.masthead {
+background: #3398E1;
+height: auto;
+padding-bottom: 18px;
+box-shadow: 0 16px 48px #E3E7EB;
+padding-top: 10px;
+}
+
+p.widget {
+
+  font-size: .9rem;
+
+}
+
+p.indent {
+  margin-left: 30px;
+}
+
+.navbar-brand{
+
+  padding-left: 1em;
+
+}
+
+img.header{
+
+  height:auto;
+  width:100%;
+
+}
+.mast-container{
+
+  height:10rem;
+  padding-bottom: 5%;
+
+
+}
+.header-logo{
+  float:left;
+  margin-top: 1.5em;
+  max-width: 21em;
+}
+
+.text-end{
+
+  margin-left:2em;
+
+}
+.nav-container{
+
+    margin:auto;
+  
+  }
+  
+  .d-flex{
+    margin:auto;
+    margin-left: 3em;
+  }
+  
+  .white-link{
+    color:white;
+  }
+  
+  
+  .blog-header {
+      border-bottom: 1px solid #e5e5e5;
+    }
+    
+    .blog-header-logo {
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif
+        /*rtl:Amiri, Georgia, "Times New Roman", serif*/
+      ;
+      font-size: 2.25rem;
+    }
+    
+    .blog-header-logo:hover {
+      text-decoration: none;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif
+        /*rtl:Amiri, Georgia, "Times New Roman", serif*/
+      ;
+    }
+    
+    h6.caption {
+    
+      font: size 1rem;
+    
+    }
+    
+    .display-4 {
+      font-size: 2.5rem;
+    }
+    
+    @media (min-width: 768px) {
+      .display-4 {
+        font-size: 3rem;
+      }
+    }
+    
+    .flex-auto {
+      flex: 0 0 auto;
+    }
+    
+    .h-250 {
+      height: 250px;
+    }
+    
+    @media (min-width: 768px) {
+      .h-md-250 {
+        height: 250px;
+      }
+    }
+    
+    /* Pagination */
+    .blog-pagination {
+      margin-bottom: 4rem;
+    }
+    
+    /*
+     * Blog posts
+     */
+  
+  
+    .blog-post {
+      margin-bottom: 4rem;
+      margin-top: 4rem;
+    }
+    
+    .blog-post-title {
+      font-size: 2.5rem;
+    }
+    
+    .blog-post-meta {
+      margin-bottom: 1.25rem;
+      color: #727272;
+    }
+    
+    /*
+     * Footer
+     */
+    .blog-footer {
+      padding: 2.5rem 0;
+      color: #727272;
+      text-align: center;
+      background-color: #f9f9f9;
+      border-top: .05rem solid #e5e5e5;
+    }
+    
+    .blog-footer p:last-child {
+      margin-bottom: 0;
+    }
+  
+    /* stylelint-disable selector-list-comma-newline-after */
+  
+  .blog-header {
+      border-bottom: 1px solid #e5e5e5;
+    }
+    
+    .blog-header-logo {
+      font-family: Amiri, Georgia, "Times New Roman", serif;
+      font-size: 2.25rem;
+    }
+    
+    .blog-header-logo:hover {
+      text-decoration: none;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      font-family: Amiri, Georgia, "Times New Roman", serif;
+    }
+    
+    .display-4 {
+      font-size: 2.5rem;
+    }
+    @media (min-width: 768px) {
+      .display-4 {
+        font-size: 3rem;
+      }
+    }
+    
+    .flex-auto {
+      flex: 0 0 auto;
+    }
+    
+    .h-250 { height: 250px; }
+    @media (min-width: 768px) {
+      .h-md-250 { height: 250px; }
+    }
+    
+    /* Pagination */
+    .blog-pagination {
+      margin-bottom: 4rem;
+    }
+    
+    /*
+     * Blog posts
+     */
+    .blog-post {
+      margin-bottom: 4rem;
+    }
+    .blog-post-title {
+      font-size: 2.5rem;
+    }
+    .blog-post-meta {
+      margin-bottom: 1.25rem;
+      color: #727272;
+    }
+    
+    /*
+     * Footer
+     */
+    .blog-footer {
+      padding: 2.5rem 0;
+      color: #727272;
+      text-align: center;
+      background-color: #f9f9f9;
+      border-top: .05rem solid #e5e5e5;
+    }
+    .blog-footer p:last-child {
+      margin-bottom: 0;
+    }
+    
+    h1.title-header {
+      padding-bottom: 50px;
+      font-size: 4rem;
+      font-weight: 200;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+  }
+  
+  h1.sub-title {
+      padding-bottom: 0px;
+      font-size: 3rem;
+      font-weight: 200;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+  }
+  
+  h4.sub-page-title {
+      font-size: 2rem;
+      font-weight: 300;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      padding-bottom: 3rem;
+  
+  }
+  
+  h3.latest-post {
+      font-size: 2rem;
+      font-weight: 300;
+      padding-bottom: 1rem;
+  
+  }
+  
+  h3.post-title {
+      font-size: 2rem;
+      font-weight: 300;
+      padding-bottom: 0;
+      margin-bottom: -.1em;
+  
+  }
+  
+  .footer {
+      margin-top: 2rem;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      color: whitesmoke
+  }
+  
+  
+  figcaption.author {
+  
+      text-align: center;
+      margin: auto;
+      font-size: .75rem;
+      font-style: italic;
+      margin-bottom: 2rem;
+  
+  
+  }
+  
+  img.author {
+  
+      display: block;
+      margin: auto;
+      margin-top: 2rem;
+      width: 60%;
+  
+  
+  }
+  
+  .title-row {
+  
+      padding-top: 1rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding-bottom: 1rem;
+      background-color: darkslategrey;
+      color: whitesmoke;
+  
+  }
+  
+  .info-row {
+      font-weight: 100;
+      border-style: solid;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 1;
+      border-width: .05em;
+      padding-bottom: .75rem;
+      padding-top: .75rem;
+  
+  }
+  
+  .post-inner {
+      border-style: solid;
+      border-width: .1em;
+      border-color: black;
+      border-bottom: 0;
+  }
+  
+  .post-container {
+  
+      padding: .5em;
+      border-style: ridge;
+  
+  }
+  
+  .publish {
+      align-items: right;
+  }
+  
+  .toc {
+  
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+  }
+  
+  h4.fst-italic {
+      text-align: center;
+  }
+  
+  .video {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+  
+  body {
+      padding-bottom: 20px;
+    }
+    
+   
+    
+    .titlebar {
+      margin-bottom: 0px;
+    }
