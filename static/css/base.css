@@ -21,6 +21,14 @@ box-shadow: 0 16px 48px #E3E7EB;
 padding-top: 10px;
 }
 
+.img-fluid{
+  max-height: 250px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 p.widget {
 
   font-size: .9rem;
