@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-uu)q0*8ms025^mt^(*&=+9ftb*x$m7oew%(3uqtm@ncje1is&5
 #DEBUG = env.bool("DEBUG", default=False)
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]  
+ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 
 
 # Application definition
@@ -41,24 +41,25 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
-    "whitenoise.runserver_nostatic",  
+    "whitenoise.runserver_nostatic",
     "django.contrib.staticfiles",
     # 3rd Party
-    "crispy_forms",  
-    "crispy_bootstrap5",  
+    "crispy_forms",
+    "crispy_bootstrap5",
     # Local
-    "accounts.apps.AccountsConfig",  
-    # "pages.apps.PagesConfig",  
-    "articles.apps.ArticlesConfig",  
+    "accounts.apps.AccountsConfig",
+    # "pages.apps.PagesConfig",
+    "articles.apps.ArticlesConfig",
     "rest_framework",
     'django_social_share',
-    
+    'django.contrib.sitemaps',
+
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
-    "whitenoise.middleware.WhiteNoiseMiddleware",  
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -93,7 +94,6 @@ REST_FRAMEWORK = {
 }
 
 WSGI_APPLICATION = "django_project.wsgi.application"
-
 
 
 # Database
@@ -131,7 +131,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "America/Chicago"  
+TIME_ZONE = "America/Chicago"
 
 USE_I18N = True
 
@@ -142,9 +142,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = "/static/"
-STATICFILES_DIRS = [BASE_DIR / "static"]  
-STATIC_ROOT = BASE_DIR / "staticfiles"  
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"  
+STATICFILES_DIRS = [BASE_DIR / "static"]
+STATIC_ROOT = BASE_DIR / "staticfiles"
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = '/media/'
 
@@ -153,15 +153,15 @@ MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-AUTH_USER_MODEL = "accounts.CustomUser"  
+AUTH_USER_MODEL = "accounts.CustomUser"
 
-LOGIN_REDIRECT_URL = "home"  
-LOGOUT_REDIRECT_URL = "home"  
+LOGIN_REDIRECT_URL = "home"
+LOGOUT_REDIRECT_URL = "home"
 
-CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"  
-CRISPY_TEMPLATE_PACK = "bootstrap5"  
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
 
-EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"  
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 DEFAULT_FROM_EMAIL = "your_custom_email_account"
 EMAIL_HOST = "smtp.sendgrid.net"
 EMAIL_HOST_USER = "apikey"

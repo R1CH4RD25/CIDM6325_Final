@@ -9,7 +9,7 @@
       <div class="card-body">
         <div class="col-md-12 card mb-4  mt-4 left  top">
         </br>
-        <h1>{% block title %} {{ object.title }} {% endblock title %}</h1>
+        {% block title %}<h5>UIL Academics </br></h5><h1>{{ object.title }} {% endblock title %}</h1>
         {% if user.is_authenticated %}
         {% if user.id == article.author.id %}
         
